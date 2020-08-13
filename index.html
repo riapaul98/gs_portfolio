@@ -3,48 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+    
     <title>Ria's Portfolio</title>
-    <style>
-        *{
-            margin: 0; 
-            /* by default 8px; */
-            padding: 0;
-        }
-        .header{
-            display: flex;
-            /* flex-direction: row;  by default*/ 
-            justify-content: space-between;
-            height: 100px;
-            /* border: 1px solid black; */
-            align-items: center;
-        }
-        .headerlogo{
-            padding-left: 30px;
-        }
-        .headerul{
-            display: flex;
-            /* flex-direction: row; */
-            list-style-type: none;
-        }
-        .headerul > li{
-            padding: 0 30px;
-        }
-    </style>
+    
+   
 </head>
 <body>
-    <div class="header">
-        <!-- logo -->
-        <div class="headerlogo">
-            <h3>Ria Paul</h3>
+    <div class="main-wrapper border">
+        <div class="sidebar border">
+            <div class="sidebar_header">
+                <div class="sidebar_header_content">
+                    Ria Paul
+                </div>
+            </div>
+            <div class="sidebar_navigation">
+                <div class="sidebar_navigation_item">Download CV</div>
+                <div class="sidebar_navigation_item">Qualification</div>
+                <div class="sidebar_navigation_item">Know Me</div>
+            </div>
         </div>
-        <!-- navigation links -->
-        <div>
-            <ul class="headerul">
-                <li>About Me</li>
-                <li>My Skills</li>
-                <li>Download my CV</li>
-                <li>My Contact</li>
-            </ul>
+        <div class="main_area">
+            <div class="main_area_header">
+                <ul>
+                    <li>About Me</li>
+                    <li>Skills</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <!-- <div class="main_area_text">
+                <h3>I am Ria Paul</h3>
+            </div> -->
         </div>
     </div>
 </body>

@@ -48,11 +48,17 @@ body{
     font-size: 25px;
     color: white;
 }
+.main_area{
+    display: flex;
+    justify-content: space-between;
+}
 .main_area_header{
     height: 10%;
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    position: fixed;
+    width: 80%;
 }
 .main_area_header ul{
     list-style-type: none;
@@ -62,6 +68,7 @@ body{
 .main_area_header li{
     padding: 0 20px;
     font-size: 20px;
+    
 }
 .main_area_text{
     /* padding: 0 20px; */
@@ -69,6 +76,32 @@ body{
     flex-direction: column;
     align-items: flex-end;
 }
-.main_area_text h3{
+/* .main_area_text h3{
     padding: 0 20px;
+} */
+.profile_wrapper{
+    width: 60%;
+    height: 100%;
+    background-image: url("./images/profile.jpg");
+    background-position: 70% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    clip-path:polygon(0% 0%,75% 0%,100% 50%,75% 100%,0% 100%);
+}
+.main_area_content{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main_area_content_subheading{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.main_area_content_heading{
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline;
 }

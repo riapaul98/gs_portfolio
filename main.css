@@ -1,0 +1,25 @@
+html{
+    font-family: ;
+}
+.container{
+    padding: 5rem;
+    display: flex;
+    justify-content: space-between;
+}
+input{
+    display: block;
+    width: 60%;
+    padding: 10px;
+    height: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.form-wrapper{
+    width: 45%;
+}
+.show_todo{
+    width: 40%;
+    min-height: 100px;
+    background: #ccc;
+    padding:10px;
+}
